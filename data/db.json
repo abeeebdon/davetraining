@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 4,
+      "checked": false,
+      "item": "Eggs, large"
+    },
+    {
+      "id": 5,
+      "checked": true,
+      "item": " Groceries"
+    },
+    {
+      "id": 7,
+      "checked": false,
+      "item": "Groceries"
+    },
+    {
+      "id": 8,
+      "checked": false,
+      "item": "s"
+    }
+  ]
+}
