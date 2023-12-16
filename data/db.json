@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "id": 8,
-      "checked": true,
-      "item": "s"
-    },
-    {
       "id": 9,
       "checked": true,
       "item": " Groceries"
@@ -17,8 +12,39 @@
     },
     {
       "id": 11,
-      "checked": true,
+      "checked": false,
       "item": " Groceries"
+    },
+    {
+      "id": 12,
+      "checked": false,
+      "item": "s"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "1st post",
+      "datetime": "July 16, 2021 11:47:39 AM",
+      "body": "lorem ipsum dolor sit amet, ceonse"
+    },
+    {
+      "id": 2,
+      "title": "2nd post",
+      "datetime": "July 16, 2021 11:47:39 AM",
+      "body": "lorem ipsum dolor sit amet, ceonse"
+    },
+    {
+      "id": 3,
+      "title": "3rd post",
+      "datetime": "July 16, 2021 11:47:39 AM",
+      "body": "lorem ipsum dolor sit amet, ceonse"
+    },
+    {
+      "id": 4,
+      "title": "4th post",
+      "datetime": "July 16, 2021 11:47:39 AM",
+      "body": "lorem ipsum dolor sit amet, ceonse"
     }
   ]
 }
