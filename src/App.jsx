@@ -6,7 +6,8 @@ import AddItem from './AddItem'
 import SearchItem from './SearchItem'
 import apiRequest from './apiRequest'
 function App() {
-  const API_URL = 'http://localhost:3500/items'
+  const API_URL = 'http://localhost:3001/items'
+
   const [newItem, setNewItem] = useState('')
   const [items, setItems] = useState([])
   const [fetchError, setFetchError] = useState(null)
