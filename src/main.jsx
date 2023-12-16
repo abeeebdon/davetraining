@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Output from './App.jsx'
-// import Output from './Appp.jsx'
-import './index.scss'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import './index.scss'
+import Tut2 from './tutorial/TUT2/Tut2.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Output />
+    <BrowserRouter>
+      <Tut2 />
+    </BrowserRouter>
   </React.StrictMode>
 )

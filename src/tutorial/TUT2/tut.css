@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  height: 100vh;
+  width: 100%;
+  border: 1px solid mediumblue;
+  margin: auto;
+}
+.header {
+  background-color: blue;
+  width: 100%;
+  padding: 1rem;
+}
+.header h1 {
+  text-align: left;
+}
+
+.nav {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+}
+.link:hover {
+  background-color: white;
+  color: black;
+}
+.Home {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0.7rem;
+}
+.post {
+  border: 0.1rem solid blue;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.post h2 {
+  font-size: 1.2rem;
+  color: black;
+  margin: 0.5rem;
+}
+.post p {
+  font-size: 1rem;
+  color: black;
+  margin: 0.5rem;
+}
+.single-post {
+  margin: 1rem;
+}
+.single-post h2 {
+  font-size: 1.2rem;
+  color: black;
+  margin: 0.5rem;
+}
+.single-post p {
+  font-size: 1rem;
+  color: black;
+  margin: 0.5rem;
+}
+.single-post button {
+  padding: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+}
+.single-post button:hover {
+  background-color: rgb(190, 25, 25);
+  color: rgb(245, 181, 181);
+}
+@media only screen and (max-width: 700px) {
+  .Home {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  ul {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  .Home {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Home {
+    display: block;
+  }
+  .post {
+    border: none;
+    border-radius: 0%;
+  }
+}
