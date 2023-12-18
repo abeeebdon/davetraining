@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 body {
   min-height: 100vh;
@@ -21,6 +22,9 @@ body {
   background-color: blue;
   width: 100%;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 .header h1 {
   text-align: left;
@@ -127,6 +131,30 @@ ul {
   color: white;
   font-size: 1rem;
   width: 100%;
+}
+.missing {
+  margin: 1rem;
+  font-size: 1rem;
+}
+.missing h2 {
+  font-size: 1.1rem;
+  margin: 1rem 0rem;
+}
+.missing p {
+  font-size: 1rem;
+  margin: 0.5rem 0rem;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  top: 90%;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 @media only screen and (max-width: 700px) {
   .Home {

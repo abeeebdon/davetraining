@@ -86,3 +86,26 @@ setNewItem('')
 }
 
 # explanation2
+
+"items": [
+{
+"id": 9,
+"checked": true,
+"item": " Groceries"
+},
+{
+"id": 10,
+"checked": true,
+"item": "m"
+},
+{
+"id": 11,
+"checked": false,
+"item": " Groceries"
+},
+{
+"id": 12,
+"checked": false,
+"item": "s"
+}
+],

@@ -1,26 +1,4 @@
 {
-  "items": [
-    {
-      "id": 9,
-      "checked": true,
-      "item": " Groceries"
-    },
-    {
-      "id": 10,
-      "checked": true,
-      "item": "m"
-    },
-    {
-      "id": 11,
-      "checked": false,
-      "item": " Groceries"
-    },
-    {
-      "id": 12,
-      "checked": false,
-      "item": "s"
-    }
-  ],
   "posts": [
     {
       "id": 1,
@@ -37,14 +15,20 @@
     {
       "id": 3,
       "title": "3rd post",
-      "datetime": "July 16, 2021 11:47:39 AM",
+      "datetime": "December 17, 2023 1:05:18 PM",
       "body": "lorem ipsum dolor sit amet, ceonse"
     },
     {
       "id": 4,
-      "title": "4th post",
-      "datetime": "July 16, 2021 11:47:39 AM",
-      "body": "lorem ipsum dolor sit amet, ceonse"
+      "title": "4th posts",
+      "datetime": "December 17, 2023 1:19:16 PM",
+      "body": "lorem ipsum dolor sit amet, ceonsedd12s"
+    },
+    {
+      "id": 5,
+      "title": "my day",
+      "datetime": "December 17, 2023 7:36:10 AM",
+      "body": "monday is coming"
     }
   ]
 }
